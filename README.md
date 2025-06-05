@@ -22,6 +22,9 @@ __________________________________
 Security
 __________________________________
 Protection against impersonation of other players (verification of nickname and player IP)
+
 Handling of the SIGPIPE signal in case a player disconnects
+
 Notifying players when the server closes the connection
+
 Verification of the validity of moves
