@@ -28,3 +28,9 @@ Handling of the SIGPIPE signal in case a player disconnects
 Notifying players when the server closes the connection
 
 Verification of the validity of moves
+
+__________________________________
+Testing
+__________________________________
+To run the program, the simplest way is to create a Docker environment consisting of at least 3 containers (2 players + 1 server).
+In the player and server code, the appropriate IP address and port configured in the containers must be specified.
